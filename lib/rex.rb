@@ -1,4 +1,5 @@
 require "rex/version"
+require "regex"
 
 module Rex
   Username = /\A[a-zA-Z0-9_]*\z/
