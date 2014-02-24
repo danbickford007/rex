@@ -20,7 +20,8 @@ class Console
       begin
         next if cont == ''
         exit if cont == 'exit'
-        system "clear" if cont == "clear"
+        Help.new; next if cont == 'help'
+        system "clear"; next if cont == "clear"
         cont, option, *args = cont.split(' ')
         cls_string = cont.capitalize
         cls = eval(cls_string)
