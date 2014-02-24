@@ -19,7 +19,7 @@ describe Strings do
   end
   describe 'view' do
     it 'should list strings' do
-      console.strings = ["test"]
+      strings.add
       expect(strings.view).to eq("test")
     end
   end

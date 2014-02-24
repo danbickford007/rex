@@ -25,7 +25,7 @@ class Strings
 
   def view 
     @console.strings.map{|s| print "#{s}\n".yellow}
-    print 'No test strings added yet.'.yellow if @console.strings.length < 1
+    print "No test strings added yet.\n".yellow if @console.strings.length < 1
   end
   
   alias_method :list, :view

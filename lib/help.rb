@@ -8,7 +8,7 @@ class Help
     print "Usage: \n"
     print "_________________________________________________________\n"
     print "regex \n"
-    print "\tset myRegex                  -sets your current regex\n"
+    print "\tset or add myRegex                  -sets your current regex\n"
     print "\tview                         -view current regex\n"
 
     print "strings\n"
@@ -16,6 +16,9 @@ class Help
     print "\tremove myString              -remove test string from list of strings\n"
     print "\tview or show or list         -view your strings\n"
     print "\tclear_all                    -remove all your test strings\n"
+
+    print "check\n"
+    print "\tnow                          -run your regex against all test strings"
   end
 
 end

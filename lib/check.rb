@@ -10,6 +10,7 @@ class Check
   def now
     regex = Regexp.new(@console.reg_expression)
     strings = @console.strings
+    print "_______________________MATCHES___________________________\n"
     strings.each do |str|
       match = /#{regex}/.match(str)
       str_array = str.split(match.to_s)
