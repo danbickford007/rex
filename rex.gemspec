@@ -6,7 +6,7 @@ require 'rex/version'
 Gem::Specification.new do |spec|
   spec.name          = "rex"
   spec.version       = Rex::VERSION
-  spec.authors       = ["Write your name"]
+  spec.authors       = ["Dan Bickford"]
   spec.email         = ["danbickford007@yahoo.com"]
   spec.description   = %q{Write a gem description}
   spec.summary       = %q{Write a gem summary}
