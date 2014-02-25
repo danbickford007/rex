@@ -20,7 +20,7 @@ class Help
     print "\tview or show or list         -view your strings\n".blue
     print "\tclear_all                    -remove all your test strings\n".blue
 
-    print "\tcheck now                      -run your regex against all test strings\n\n".green
+    print "\tcheck now                    -run your regex against all test strings\n\n".green
     
     
     print "***EXAMPLES***\n".yellow
