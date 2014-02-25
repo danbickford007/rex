@@ -20,14 +20,14 @@ Or install it yourself as:
 ## Usage
     $ regex
       $ set or add myRegex           -sets your current regex
-    $ view                         -view current regex
+      $ view                         -view current regex
     **only add regex between but not including the starting and ending //
 
     $ strings
-    $ add myString                 -add test string to your list of strings
-    $ remove myString              -remove test string from list of strings
-    $ view or show or list         -view your strings
-    $ clear_all                    -remove all your test strings
+      $ add myString                 -add test string to your list of strings
+      $ remove myString              -remove test string from list of strings
+      $ view or show or list         -view your strings
+      $ clear_all                    -remove all your test strings
 
     $ check now                    -run your regex against all test strings
     
