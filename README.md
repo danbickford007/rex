@@ -18,13 +18,12 @@ Or install it yourself as:
     $ gem install rex
 
 ## Usage
-
-$ regex 
+    $ regex
     $ set or add myRegex           -sets your current regex
     $ view                         -view current regex
     **only add regex between but not including the starting and ending //
 
-$ strings
+    $ strings
     $ add myString                 -add test string to your list of strings
     $ remove myString              -remove test string from list of strings
     $ view or show or list         -view your strings
