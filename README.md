@@ -33,11 +33,12 @@ Or install it yourself as:
     
     
 ***EXAMPLES***
-    set regex:         
+
+set regex:         
     $ regex set \d
-    add test string:   
+add test string:   
     $ strings add testString
-    run your regex:    
+run your regex:    
     $ check now
 
 ## Contributing
