@@ -32,13 +32,18 @@ Or install it yourself as:
     $ check now                    -run your regex against all test strings
     
     
-EXAMPLES
+## EXAMPLES
 
 set regex:         
+
     $ regex set \d
+
 add test string:   
+
     $ strings add testString
+
 run your regex:    
+
     $ check now
 
 ## Contributing
