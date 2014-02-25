@@ -19,7 +19,7 @@ Or install it yourself as:
 
 ## Usage
     $ regex
-    $ set or add myRegex           -sets your current regex
+      $ set or add myRegex           -sets your current regex
     $ view                         -view current regex
     **only add regex between but not including the starting and ending //
 
