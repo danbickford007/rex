@@ -34,9 +34,12 @@ $ strings
     
     
 ***EXAMPLES***
-    set regex:         $ regex set \d
-    add test string:   $ strings add testString
-    run your regex:    $ check now
+    set regex:         
+    $ regex set \d
+    add test string:   
+    $ strings add testString
+    run your regex:    
+    $ check now
 
 ## Contributing
 
