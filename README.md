@@ -1,4 +1,4 @@
-# Rex
+# Rexsole
 
 Test your regex quickly with an interactive console.  Add as many test strings as you desire and run your
 regex against them.
@@ -7,7 +7,7 @@ regex against them.
 
 Add this line to your application's Gemfile:
 
-    gem 'rex'
+    gem 'rexsole'
 
 And then execute:
 
@@ -15,7 +15,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install rex
+    $ gem install rexsole
 
 ## Usage
     $ regex
