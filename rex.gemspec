@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'rex/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "rex"
+  spec.name          = "rexsole"
   spec.version       = Rex::VERSION
   spec.authors       = ["Dan Bickford"]
   spec.email         = ["danbickford007@yahoo.com"]
-  spec.description   = %q{Write a gem description}
-  spec.summary       = %q{Write a gem summary}
+  spec.description   = %q{rexsole is an interactive regex console.}
+  spec.summary       = %q{Test an unlimited number of strings against your regex.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
